@@ -46,22 +46,22 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp E                &kp R   &kp T &kp Y         &kp U  &kp I     &kp O   &kp P    &kp BSPC
-   &kp LCTRL &kp A &kp S &kp D &hml LSHIFT F  &kp G   &kp H &hmr LSHIFT J &kp K  &kp L   &kp SEMI &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C                &kp V   &kp B &kp N         &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
+   &kp TAB   &kp Q &kp W &kp E                &kp R   &kp T &kp Y         &kp U         &kp I         &kp O           &kp P    &kp BSPC
+   &kp LCTRL &kp A &kp S &kp D &hml LSHIFT F  &kp G   &kp H &hmr RSHIFT J &hmr LCTRL K  &hmr LALT L   &hmr LGUI SEMI  &kp SQT
+   &kp LSHFT &kp Z &kp X &kp C                &kp V   &kp B &kp N         &kp M         &kp COMMA     &kp DOT         &kp FSLH &kp ESC
                   &kp LGUI &mo 1 &kp SPACE            &kp RET &mo 2 &kp RALT
                         >;
                 };
 
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  F1 | F2  | F3  | F4  | F5  |   | F6  | F7  | F8  | F9  | F10 | BSPC |
-// | CTRL |   1 |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | F11  | 
+// |  ESC |  F1 | F2  | F3  | F4  | F5  |   | F6  | F7  | F8  | F9  | F10 | BSPC |
+// | CAPS |   1 |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | F11  | 
 // | SHFT |     |     |     |     |     |   |     | LFT | UP  | DWN | RGT | F12  | 
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB   &kp F1      &kp F2      &kp F3      &kp F4      &kp F5        &kp F6    &kp F7   &kp F8   &kp F9    &kp F10   &kp BSPC
-   &kp LCTRL  &kp N1      &kp N2      &kp N3      &kp N4      &kp N5        &kp N6    &kp N7   &kp N8   &kp N9    &kp N0    &kp F11
+   &kp  ESC   &kp F1      &kp F2      &kp F3      &kp F4      &kp F5        &kp F6    &kp F7   &kp F8   &kp F9    &kp F10   &kp BSPC
+   &kp CAPS   &kp N1      &kp N2      &kp N3      &kp N4      &kp N5        &kp N6    &kp N7   &kp N8   &kp N9    &kp N0    &kp F11
    &kp LSHFT  &trans      &trans      &trans      &trans      &trans        &trans    &kp LEFT &kp UP   &kp DOWN  &kp RIGHT &kp F12
                            &kp LGUI     &trans       &kp SPACE          &kp RET    &trans   &kp RALT
                         >;
